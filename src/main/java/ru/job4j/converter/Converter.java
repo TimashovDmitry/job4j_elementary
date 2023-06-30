@@ -19,7 +19,7 @@ public class Converter {
         System.out.println("140 rubles are " + dollar + " dollar.");
         float inEu = 140;
         float expectedEu = 2;
-        float inDol = 130;
+        float inDol = 120;
         float expectedDol = 2;
         float outEu = Converter.rubleToEuro(inEu);
         float outDol = Converter.rubleToDollar(inDol);
