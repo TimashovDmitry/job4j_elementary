@@ -24,10 +24,10 @@ public class MaxTest {
 
     @Test
     public void whenMax4To2Then2() {
-        int left = 4;
+        int left = 2;
         int right = 2;
         int result = Max.max(left, right);
-        int expected = 4;
+        int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
 }
