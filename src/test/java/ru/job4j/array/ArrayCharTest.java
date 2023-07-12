@@ -1,5 +1,4 @@
-package ru.job4j.array.ru.job4j.array;
-
+package ru.job4j.array;
 
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
