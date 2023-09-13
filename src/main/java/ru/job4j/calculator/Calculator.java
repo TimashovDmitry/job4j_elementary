@@ -3,26 +3,24 @@ package ru.job4j.calculator;
 public class Calculator {
     private static int x = 5;
 
-    private static int z = 5;
-
-    public static int sum() {
+    public static int sum(int z) {
         return x + z;
     }
 
-    public int multiply() {
+    public int multiply(int z) {
         return x * z;
     }
 
-    public static int minus() {
+    public static int minus(int z) {
         return x - z;
     }
 
-    public int divide() {
+    public int divide(int z) {
         return x / z;
     }
 
     public int sumAllOperation() {
-      return sum() + multiply() + minus() + divide();
+      return sum(5) + multiply(5) + minus(5) + divide(5);
     }
 
     public static void main(String[] args) {
@@ -40,9 +38,9 @@ public class Calculator {
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
         Calculator calk = new Calculator();
-        int rsm = sum();
-        int rzk = calk.multiply();
-        int rsk = minus();
+        int rsm = sum(5);
+        int rzk = calk.multiply(5);
+        int rsk = minus(5);
         int rsl = calk.sumAllOperation();
         System.out.println(rsm);
         System.out.println(rzk);
