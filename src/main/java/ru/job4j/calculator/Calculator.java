@@ -19,8 +19,8 @@ public class Calculator {
         return x / z;
     }
 
-    public int sumAllOperation() {
-      return sum(5) + multiply(5) + minus(5) + divide(5);
+    public int sumAllOperation(int z) {
+      return sum(z) + multiply(z) + minus(z) + divide(z);
     }
 
     public static void main(String[] args) {
@@ -41,7 +41,7 @@ public class Calculator {
         int rsm = sum(5);
         int rzk = calk.multiply(5);
         int rsk = minus(5);
-        int rsl = calk.sumAllOperation();
+        int rsl = calk.sumAllOperation(5);
         System.out.println(rsm);
         System.out.println(rzk);
         System.out.println(rsk);
