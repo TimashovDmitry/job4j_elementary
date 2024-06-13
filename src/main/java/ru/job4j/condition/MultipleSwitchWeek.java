@@ -1,4 +1,4 @@
-package ru.jobj4.condition;
+package ru.job4j.condition;
 
 public class MultipleSwitchWeek {
     public static int numberOfDay(String name) {
